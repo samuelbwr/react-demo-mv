@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
-import Header from './Header';
+import React from 'react';
+import './Header.css';
 
-class App extends Component {
+
+class Header extends React.Component {
   render() {
     return (
       <div>
         <MediaQuery minWidth={1224}>
 
-          <Header/>
+          <div>Displaying for Big screens</div>
         
         </MediaQuery>
 
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Header;

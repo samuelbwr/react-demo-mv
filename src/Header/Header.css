@@ -1,0 +1,30 @@
+.container{
+	display: flex;
+	flex: 1;
+	background-color: #47E4C2;
+}
+
+.menu{
+	list-style: none;
+}
+
+.menu li, .dropdown-user{
+	display: inline-flex;
+    padding: 34px 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.dropdown-user{
+	margin-left: auto;
+	margin-right: 24px;
+	padding: 38px 15px;
+}
+.Dropdown-control.dropdown-user-menu{
+	background-color: transparent;
+    border: 0;
+    padding-right: 26px;
+}
+.dropdown-user-menu .dropdown-user-menu-arrow{
+	border-color: black transparent transparent;
+}
