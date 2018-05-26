@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	padding: 15px;
+}
+
+.addPleaseButton{
+	margin-right: auto;
+}
+
+.sortBy{
+	font-size: 21px;
+	font-family: 'Dancing Script', cursive;
+}

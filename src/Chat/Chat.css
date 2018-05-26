@@ -1,0 +1,28 @@
+.container{
+	position: relative;
+}
+
+.addInteractionContainer{
+	position: absolute;
+	background-color: #ddd;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.addInteractionContainer input{
+	width: 84%;
+    margin: 17px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+.cameraIcon{
+	
+	color: #888;
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 0px 0px 11px;
+}
