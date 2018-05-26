@@ -6,25 +6,25 @@
 
 .menu{
 	list-style: none;
+	margin: 0;
 }
 
-.menu li, .dropdown-user{
+.menu li, .dropdownUser{
 	display: inline-flex;
     padding: 34px 15px;
 	font-size: 15px;
 	font-weight: bold;
 }
 
-.dropdown-user{
+.dropdownUser{
 	margin-left: auto;
 	margin-right: 24px;
-	padding: 38px 15px;
 }
-.Dropdown-control.dropdown-user-menu{
+.Dropdown-control.dropdownUserMenu{
 	background-color: transparent;
     border: 0;
     padding-right: 26px;
 }
-.dropdown-user-menu .dropdown-user-menu-arrow{
+.dropdownUserMenu .dropdownUserMenuArrow{
 	border-color: black transparent transparent;
 }
